@@ -71,11 +71,10 @@ const App = () => {
     <div className="app-shell">
       <main className="container">
         <section className="hero">
-          <p className="eyebrow">MERN Lab Experiment</p>
           <h1>Weather Forecasting App</h1>
           <p className="hero-copy">
             Search for a city to view live weather details, a short forecast,
-            and saved search history powered by MongoDB.
+            and saved search history.
           </p>
         </section>
 
