@@ -3,7 +3,6 @@ const HistoryList = ({ history, loading, onSelectCity }) => {
     <section className="panel history-card">
       <div className="panel-header history-header">
         <h2>Recent Search History</h2>
-        <p>Stored in MongoDB for your MERN submission demo.</p>
       </div>
 
       {loading ? <p>Loading search history...</p> : null}
